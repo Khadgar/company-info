@@ -1,0 +1,40 @@
+{
+    "base": {
+        "label": "label",
+        "logo": "logo"
+    },
+    "home": {
+        "section_1": {
+            "img": "valami",
+            "text": "sadsadsad"
+        },
+        "section_2": {
+            "img": "valami",
+            "text": "sadsadsad"
+        },
+        "section_3": "Rrandom text",
+        "section_4": "Rrandom text",
+        "section_5": "Rrandom text"
+    },
+    "events": {
+        "section_1": "Rrandom text",
+        "section_2": "Rrandom text",
+        "section_3": "Rrandom text",
+        "section_4": "Rrandom text",
+        "section_5": "Rrandom text"
+    },
+    "ingedients": {
+        "section_1": "Rrandom text",
+        "section_2": "Rrandom text",
+        "section_3": "Rrandom text",
+        "section_4": "Rrandom text",
+        "section_5": "Rrandom text"
+    },
+    "history": {
+        "section_1": "Rrandom text",
+        "section_2": "Rrandom text",
+        "section_3": "Rrandom text",
+        "section_4": "Rrandom text",
+        "section_5": "Rrandom text"
+    }
+}
