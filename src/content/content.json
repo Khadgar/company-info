@@ -24,11 +24,29 @@
             "title": "Section 5",
             "text": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
         }],
-    "events": {
-        "section_1": "Rrandom text",
-        "section_2": "Rrandom text",
-        "section_3": "Rrandom text",
-        "section_4": "Rrandom text",
-        "section_5": "Rrandom text"
-    }
+    "events":  [{
+            "image":"https://images.unsplash.com/photo-1503767849114-976b67568b02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=834896599ce28318d8bc1500ad27112a&auto=format&fit=crop&w=750&q=80",
+            "title": "Event 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "location": "https://goo.gl/maps/UkZijHQfTHp",
+            "date":"2018-06-20"
+        },{
+            "image":"https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71cdddf5cc615224cf2c26614d20154d&auto=format&fit=crop&w=750&q=80",
+            "title": "Event 3",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+            "location": "https://goo.gl/maps/sfAFY5Dgsu82",
+            "date":"2018-06-27"
+        },{
+            "image":"https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82203e4d57fc0d3bdd8ffc0f66d09763&auto=format&fit=crop&w=750&q=80",
+            "title": "Event 4",
+            "description": "But I must explain to you how all this mistaken idea of denouncing",
+            "location":"https://goo.gl/maps/E5pSmsTnaUp",
+            "date":"2018-07-04"
+        },{
+            "image":"https://images.unsplash.com/photo-1464219222984-216ebffaaf85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de182c33e4aa019a30bd1976674dfb4f&auto=format&fit=crop&w=750&q=80",
+            "title": "Event 5",
+            "description": "On the other hand, we denounce with righteous indignation",
+            "location":"https://goo.gl/maps/mAKNhDf7RxA2",
+            "date":"2018-07-11"
+        }]
 }
