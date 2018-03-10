@@ -22,7 +22,7 @@ class BodyItem extends Component {
                 <div className="bodyItem-title"><h1>{this.title}</h1></div>
                 <div className="bodyItem-image">{this.renderImage(this.imageSrc)}</div>
                 <div className="bodyItem-info">
-                    <p class="text-justify font-weight-light">{this.text}</p>
+                    <p className="text-justify font-weight-light">{this.text}</p>
                 </div>
             </div>
         );
