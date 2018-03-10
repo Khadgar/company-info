@@ -5,6 +5,9 @@ import ScrollableAnchor, {
     goToTop
 } from "react-scrollable-anchor";
 
+import {Row} from "reactstrap";
+import BodyItem from "./BodyItem.js";
+
 class Body extends Component {
     constructor(props) {
         super(props);
@@ -13,40 +16,24 @@ class Body extends Component {
             offset: -56,
             scrollDuration: 400
         });
+        this.content = props.Content.home;
+    }
+
+    generateContent(content) {
+        return content.map((el, index) => {
+            return (
+                <Row className="bodyWrapper container" key={index}>
+                    <BodyItem content={el} />
+                </Row>
+            );
+        });
     }
 
     render() {
         console.log("Body-render");
         return (
             <div className="bodyWrapper container">
-                <div className="bodyWrapper-bodyItem row">
-                    <h2> Home </h2>
-                </div>
-                <ScrollableAnchor id={"bodyItem1"}>
-                    <div className="bodyWrapper-bodyItem row">
-                        <h2> bodyItem 1 </h2>
-                    </div>
-                </ScrollableAnchor>
-                <ScrollableAnchor id={"bodyItem2"}>
-                    <div className="bodyWrapper-bodyItem row">
-                        <h2> bodyItem 2 </h2>
-                    </div>
-                </ScrollableAnchor>
-                <ScrollableAnchor id={"bodyItem3"}>
-                    <div className="bodyWrapper-bodyItem row">
-                        <h2> bodyItem 3 </h2>
-                    </div>
-                </ScrollableAnchor>
-                <ScrollableAnchor id={"bodyItem4"}>
-                    <div className="bodyWrapper-bodyItem row">
-                        <h2> bodyItem 4 </h2>
-                    </div>
-                </ScrollableAnchor>
-                <ScrollableAnchor id={"bodyItem5"}>
-                    <div className="bodyWrapper-bodyItem row">
-                        <h2> bodyItem 5 </h2>
-                    </div>
-                </ScrollableAnchor>
+                {this.generateContent(this.content)}
             </div>
         );
     }

@@ -22,7 +22,7 @@ class ApplicationWrapper extends Component {
                 if (this._isMounted) {
                     setTimeout(() => {
                         this.setState({
-                            content: json
+                            content: Content
                         });
                     }, 500);
                 }
