@@ -3,50 +3,114 @@
         "label": "label",
         "logo": "logo"
     },
-    "home": [{
-            "image":"https://images.unsplash.com/photo-1429593886847-3cc52983f919?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24203c3be0b7ab123fa19e4243798aa5&auto=format&fit=crop&w=1000&q=80",
-            "title": "Section 1",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },{
-            "image":"https://images.unsplash.com/photo-1464039397811-476f652a343b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86ec8c23fcac41d5c77684ef15ea95d5&auto=format&fit=crop&w=1000&q=80",
-            "title": "Section 2",
-            "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-        },{
-            "image":"https://images.unsplash.com/photo-1465588042420-47a53c2d0320?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a92c4e3580094ddd156079701920b260&auto=format&fit=crop&w=1000&q=80",
-            "title": "Section 3",
-            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-        },{
-            "image":"https://images.unsplash.com/photo-1508881598441-324f3974994b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2aef1e2f3895c40e891654ae51f9c1e3&auto=format&fit=crop&w=1000&q=80",
-            "title": "Section 4",
-            "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-        },{
-            "image":"https://images.unsplash.com/photo-1474436799594-1974f1add7ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b0739606036e0f6451af38f71bf91aa&auto=format&fit=crop&w=1000&q=80",
-            "title": "Section 5",
-            "text": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-        }],
-    "events":  [{
-            "image":"https://images.unsplash.com/photo-1503767849114-976b67568b02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=834896599ce28318d8bc1500ad27112a&auto=format&fit=crop&w=750&q=80",
-            "title": "Event 1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "location": "https://goo.gl/maps/UkZijHQfTHp",
-            "date":"2018-06-20"
-        },{
-            "image":"https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71cdddf5cc615224cf2c26614d20154d&auto=format&fit=crop&w=750&q=80",
-            "title": "Event 3",
-            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
-            "location": "https://goo.gl/maps/sfAFY5Dgsu82",
-            "date":"2018-06-27"
-        },{
-            "image":"https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82203e4d57fc0d3bdd8ffc0f66d09763&auto=format&fit=crop&w=750&q=80",
-            "title": "Event 4",
-            "description": "But I must explain to you how all this mistaken idea of denouncing",
-            "location":"https://goo.gl/maps/E5pSmsTnaUp",
-            "date":"2018-07-04"
-        },{
-            "image":"https://images.unsplash.com/photo-1464219222984-216ebffaaf85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de182c33e4aa019a30bd1976674dfb4f&auto=format&fit=crop&w=750&q=80",
-            "title": "Event 5",
-            "description": "On the other hand, we denounce with righteous indignation",
-            "location":"https://goo.gl/maps/mAKNhDf7RxA2",
-            "date":"2018-07-11"
-        }]
+    "home": [
+        {
+            "image": "./img/main.jpg",
+            "title": "Freshly baked – Handcrafted – European-style",
+            "headline": "Just like on the streets of Budapest!",
+            "type": "pagetitle",
+            "text": ""
+        },
+        {
+            "image": "./img/chimney1.jpg",
+            "title": "What is a Chimney Cake?",
+            "headline": "",
+            "redirect": "#/shapesandflavors",
+            "text":
+                "Chimney Cakes are delicious freshly baked pastries with a twisty, cilindical shape. This unique Hungarian treat is hand-rolled and baked before your eyes on a traditional-style open gas grill. We offer this unique, plant-based treat in original and cone shape, in sweet and savory flavors, with fillings and toppings of your choice!"
+        },
+        {
+            "image": "./img/ingedients_lemon_cropped.jpg",
+            "title": "The quality of ingredients",
+            "headline": "",
+            "redirect": "#/ingredients",
+            "text":
+                "Our pastries are freshly baked using all-natural ingredients without preservatives. The base dough has no animal products, and we offer toppings with and without dairy. As much as possible we use local, organic, natural ingredients for our toppings too."
+        },
+        {
+            "image": "./img/artofmaking.jpg",
+            "title": "The art in the making",
+            "redirect": "#/artofmaking",
+            "headline": "",
+            "text":
+                "We make the yeast dough using only premium ingredients. Once the dough is raised, we hand roll it around a wooden baking roll, and we spread it with organic cane sugar."
+        }
+    ],
+    "ingredients": [
+        {
+            "image": "./img/ingedients_lemon2.jpg",
+            "title": "Sweet",
+            "redirect": "#/shapesandflavors",
+            "text":
+                "The ingredients for the base sweet dough are: Flour, organic coconut and almond milk, organic cane sugar, coconut oil, grated lemon zest, fresh yeast and sea salt"
+        },
+        {
+            "image": "./img/ingedients_lemon3.jpg",
+            "title": "Savory ",
+            "redirect": "#/shapesandflavors",
+            "text":
+                "The ingredients for the base savory dough are: Flour, organic almond and rice milk, olive oil, fresh yeast and sea salt."
+        }
+    ],
+    "artofmaking": [
+        {
+            "image": "./img/artofmaking2.jpg",
+            "title": "We make the yeast dough using only premium ingredients.",
+            "headline": "Just like on the streets of Budapest!",
+            "text":
+                "Once the dough is raised, we hand roll it around a wooden baking roll, and we spread it with organic cane sugar."
+        },
+        {
+            "image": "./img/artofmaking3.jpg",
+            "title": "Traditional-style",
+            "headline": "",
+            "text":
+                "Chimney Cakes are baked on a traditional-style open gas rotisserie grill. As the wooden spit slowly spins, the heat caramelizes the sugar and gives the dough its rich golden-brown color. The inside of the dough stays light and fluffy and the outside crunchy and fun to eat."
+        },
+        {
+            "image": "./img/artofmaking4.jpg",
+            "title": "Topping",
+            "headline": "",
+            "text":
+                "Once baked, the cake can be rolled into different many tasty toppings such as cinnamon, almond, cocoa and walnut. "
+        }
+    ],
+    "shapesandflavors": [
+        {
+            "image": "./img/coneeffect.jpg",
+            "title": "Original Chimney Cakes",
+            "text":
+                "Original Chimney cakes are baked in cilindrical shape: like a real chimney. When the Chimney Cakes are fresh and warm, there's still steam coming out, creating the \"Chimney\" effect."
+        },
+        {
+            "image": "./img/chimney3.jpg",
+            "title": "Chimney Cone: the new incarnation of Chimneys",
+            "headline": "",
+            "text":
+                "Cone shaped chimneys are specially designed to be stuffed with goodies like Nutella, ice-cream and fruits, and topped with sprinkles and syrups. Create your own Chimney Cone!"
+        },
+        {
+            "image": "./img/icecream1.jpg",
+            "title": "Ice-cream filled and sweet-stuffed Chimneys ",
+            "headline": "",
+            "text":
+                "Recently, ice-cream filled and sweet-stuffed Chimneys started to bewitch Budapest. We bring this new innovation of the Chimneys to you!"
+        }
+    ],
+    "events": [
+        {
+            "image": "./img/issaquah.png",
+            "title": "Issaquah Farmers Market",
+            "description": "1730 10th Ave NW, Issaquah, WA 98027",
+            "location": "https://goo.gl/maps/M6F2MK9M4Gm",
+            "date": "Saturdays from 9am-2pm during the summer"
+        },
+        {
+            "image": "./img/sammamish.png",
+            "title": "Sammamish Farmers Market",
+            "description": "801 228th Ave SE, Sammamish, WA 98074",
+            "location": "https://goo.gl/maps/hASTJawgKU92",
+            "date": "Wednesdays from 4 pm to 8 pm during the summer"
+        }
+    ]
 }

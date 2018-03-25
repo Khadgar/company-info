@@ -6,16 +6,18 @@ import Events from "./Events.js";
 import Body from "./Body.js";
 import NotFound from "./NotFound.js";
 import Ingredients from "./Ingredients.js";
+import ArtOfMaking from "./ArtOfMaking.js";
+import ShapesAndFlavors from "./ShapesAndFlavors.js";
 
 class Main extends Component {
     constructor(props) {
         super(props);
-        console.log("Main-props", props);
+        // console.log("Main-props", props);
         this.content = props.content;
     }
 
     render() {
-        console.log("Main-render");
+        // console.log("Main-render");
         return (
             <main>
                 <Switch>
@@ -43,6 +45,18 @@ class Main extends Component {
                             path="/ingredients"
                             render={() => {
                                 return <Ingredients Content={this.content} />;
+                            }}
+                        />
+                        <Route
+                            path="/artofmaking"
+                            render={() => {
+                                return <ArtOfMaking Content={this.content} />;
+                            }}
+                        />
+                        <Route
+                            path="/shapesandflavors"
+                            render={() => {
+                                return <ShapesAndFlavors Content={this.content} />;
                             }}
                         />
                     </AnimatedSwitch>

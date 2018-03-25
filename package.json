@@ -23,18 +23,23 @@
     "jquery": "^1.9.1",
     "less": "^3.0.1",
     "less-loader": "^4.0.6",
+    "node-sass": "^4.7.2",
     "prop-types": "^15.6.0",
     "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-parallax": "^1.6.1",
     "react-router-dom": "^4.2.2",
     "react-router-hash-link": "^1.2.0",
     "react-router-transition": "^1.2.1",
     "react-scrollable-anchor": "^0.6.1",
     "reactstrap": "^5.0.0-beta.2",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

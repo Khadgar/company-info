@@ -7,7 +7,7 @@ import {Row, Col} from "reactstrap";
 class Events extends Component {
     constructor(props) {
         super(props);
-        console.log("Events props", props);
+        // console.log("Events props", props);
         this.content = props.Content.events;
     }
 
@@ -23,11 +23,18 @@ class Events extends Component {
 
     render() {
         return (
-            <div className="eventsWrapper container">
+            <div className="eventsWrapper container-fluid">
+                <h1 className="display-3">Find us</h1>
+                <h2>
+                    <small className="text-muted">
+                        We will participate on the following Farmers Markets and
+                        Festivals this year. Please check our Calendar for the
+                        accurate event days.
+                    </small>
+                </h2>
+
                 <div className="eventsWrapper-eventContent row">
-                    <Row>
-                        {this.generateContent(this.content)}
-                    </Row>
+                    <Row>{this.generateContent(this.content)}</Row>
                 </div>
             </div>
         );

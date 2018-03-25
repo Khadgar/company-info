@@ -5,24 +5,17 @@ import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 //use it for the events
 import {Link} from "react-router-dom";
 
-import {goToTop} from "react-scrollable-anchor";
 
 class Header extends Component {
     constructor(props) {
         super(props);
-        this.scrollToTop = this.scrollToTop.bind(this);
-    }
-
-    scrollToTop() {
-        goToTop();
-        console.log("scroll to top");
     }
 
     render() {
         return (
             <div className="headerWrapper">
                 <Navbar color="dark" dark expand="sm" fixed="top">
-                    <NavbarBrand href="/">CompanyName</NavbarBrand>
+                    <NavbarBrand href="/">Budapastry</NavbarBrand>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
                             <Link
@@ -30,12 +23,7 @@ class Header extends Component {
                                 className="nav-link"
                                 to="/"
                             >
-                                Home
-                            </Link>
-                        </NavItem>
-                        <NavItem>
-                            <Link className="nav-link" to="/events">
-                                Events
+                                About the Chimney Cakes
                             </Link>
                         </NavItem>
                         <NavItem>
@@ -43,6 +31,22 @@ class Header extends Component {
                                 Ingredients
                             </Link>
                         </NavItem>
+                        <NavItem>
+                            <Link className="nav-link" to="/artofmaking">
+                                The Art of Making
+                            </Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link className="nav-link" to="/shapesandflavors">
+                                Shapes and flavors
+                            </Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link className="nav-link" to="/events">
+                                Find Us
+                            </Link>
+                        </NavItem>
+                        
                     </Nav>
                 </Navbar>
             </div>

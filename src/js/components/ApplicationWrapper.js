@@ -14,40 +14,48 @@ class ApplicationWrapper extends Component {
     }
 
     componentDidMount() {
-        console.log("ApplicationWrapper-componentDidMount");
+        // console.log("ApplicationWrapper-componentDidMount");
         this._isMounted = true;
-        fetch("http://api.chew.pro/trbmb")
-            .then(response => response.json())
-            .then(json => {
-                if (this._isMounted) {
-                    setTimeout(() => {
-                        this.setState({
-                            content: Content
-                        });
-                    }, 500);
-                }
-            });
+        // fetch("http://api.chew.pro/trbmb")
+        //     .then(response => response.json())
+        //     .then(json => {
+        //         if (this._isMounted) {
+        //             setTimeout(() => {
+        //                 this.setState({
+        //                     content: Content
+        //                 });
+        //             }, 500);
+        //         }
+        //     });
+
+        setTimeout(() => {
+            if (this._isMounted) {
+                this.setState({
+                    content: Content
+                });
+            }
+        }, 500);
     }
 
     componentWillUnmount() {
-        console.log("ApplicationWrapper-componentWillUnmount");
+        // console.log("ApplicationWrapper-componentWillUnmount");
         this._isMounted = false;
     }
 
     render() {
-        console.log("ApplicationWrapper-render", this.state);
+        // console.log("ApplicationWrapper-render", this.state);
         const Content = this.state.content;
         return (
-            <div className="applicationWrapper container">
+            <div className="applicationWrapper container-fluid">
                 <Header />
                 {Content ? (
                     <Main content={Content} />
                 ) : (
                     <div className="loading">
-                        <div className="loading-bar"></div>
-                        <div className="loading-bar"></div>
-                        <div className="loading-bar"></div>
-                        <div className="loading-bar"></div>
+                        <div className="loading-bar" />
+                        <div className="loading-bar" />
+                        <div className="loading-bar" />
+                        <div className="loading-bar" />
                     </div>
                 )}
                 <Footer />
