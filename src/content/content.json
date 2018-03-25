@@ -99,14 +99,14 @@
     ],
     "events": [
         {
-            "image": "./img/issaquah.png",
+            "image": "./img/issaquah.PNG",
             "title": "Issaquah Farmers Market",
             "description": "1730 10th Ave NW, Issaquah, WA 98027",
             "location": "https://goo.gl/maps/M6F2MK9M4Gm",
             "date": "Saturdays from 9am-2pm during the summer"
         },
         {
-            "image": "./img/sammamish.png",
+            "image": "./img/sammamish.PNG",
             "title": "Sammamish Farmers Market",
             "description": "801 228th Ave SE, Sammamish, WA 98074",
             "location": "https://goo.gl/maps/hASTJawgKU92",
