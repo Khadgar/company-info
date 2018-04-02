@@ -25,12 +25,18 @@ class BodyItem extends Component {
         // console.log("BodyIem-render");
         return (
             <div className="bodyItem">
-                <Parallax strength={300} className={"imageClass"} bgImage={this.imageSrc} >
+                <Parallax
+                    strength={300}
+                    className={"imageClass"}
+                    bgImage={this.imageSrc}
+                >
                     <div className="bodyItem-info">
                         <h1 className="display-4">{this.title}</h1>
                         {this.type === "pagetitle" && (
                             <h2>
-                                <small className="text-muted">{this.headline}</small>
+                                <small className="text-muted">
+                                    {this.headline}
+                                </small>
                             </h2>
                         )}
                         <p className="align-middle text-justify font-weight-light lead">

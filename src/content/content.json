@@ -17,7 +17,7 @@
             "headline": "",
             "redirect": "#/shapesandflavors",
             "text":
-                "Chimney Cakes are delicious freshly baked pastries with a twisty, cilindical shape. This unique Hungarian treat is hand-rolled and baked before your eyes on a traditional-style open gas grill. We offer this unique, plant-based treat in original and cone shape, in sweet and savory flavors, with fillings and toppings of your choice!"
+                "Chimney Cakes are delicious, freshly baked pastries with a twisty, cylindrical shape. This unique Hungarian treat is hand-rolled and baked before your eyes on a traditional-style open gas grill. We offer this unique, organic treat in original and cone shape, in sweet and savory flavors, and with fillings and toppings of your choice!"
         },
         {
             "image": "./img/ingedients_lemon_cropped.jpg",
@@ -25,7 +25,7 @@
             "headline": "",
             "redirect": "#/ingredients",
             "text":
-                "Our pastries are freshly baked using all-natural ingredients without preservatives. The base dough has no animal products, and we offer toppings with and without dairy. As much as possible we use local, organic, natural ingredients for our toppings too."
+                "Our pastries are freshly baked using all-natural ingredients without preservatives. The base dough has no animal products, and we offer toppings with and without dairy. We use local, organic, natural ingredients for our toppings as well."
         },
         {
             "image": "./img/artofmaking.jpg",
@@ -55,24 +55,25 @@
     "artofmaking": [
         {
             "image": "./img/artofmaking2.jpg",
-            "title": "We make the yeast dough using only premium ingredients.",
+            "title":
+                "We make the yeast dough using only the most top-notch ingredients.",
             "headline": "Just like on the streets of Budapest!",
             "text":
-                "Once the dough is raised, we hand roll it around a wooden baking roll, and we spread it with organic cane sugar."
+                "Once the dough is raised, we hand roll it around a wooden baking roll, and roll it in organic cane sugar."
         },
         {
             "image": "./img/artofmaking3.jpg",
             "title": "Traditional-style",
             "headline": "",
             "text":
-                "Chimney Cakes are baked on a traditional-style open gas rotisserie grill. As the wooden spit slowly spins, the heat caramelizes the sugar and gives the dough its rich golden-brown color. The inside of the dough stays light and fluffy and the outside crunchy and fun to eat."
+                "Chimney Cakes are baked on a traditional-style open gas rotisserie grill. As the wooden spit slowly spins, the heat caramelizes the sugar and gives the dough its gorgeous golden-brown color. The inside of the dough stays light and fluffy and the outside crunchy and entertainingly delicious."
         },
         {
             "image": "./img/artofmaking4.jpg",
             "title": "Topping",
             "headline": "",
             "text":
-                "Once baked, the cake can be rolled into different many tasty toppings such as cinnamon, almond, cocoa and walnut. "
+                "Once baked, the cake can be rolled into different many scrumptious toppings such as cinnamon, almonds, cocoa and walnuts."
         }
     ],
     "shapesandflavors": [
@@ -80,7 +81,7 @@
             "image": "./img/coneeffect.jpg",
             "title": "Original Chimney Cakes",
             "text":
-                "Original Chimney cakes are baked in cilindrical shape: like a real chimney. When the Chimney Cakes are fresh and warm, there's still steam coming out, creating the \"Chimney\" effect."
+                "Original Chimney cakes are baked in cylindrical shape: like a real chimney. When the Chimney Cakes are fresh and warm, there's still steam coming out, creating the \"Chimney\" effect."
         },
         {
             "image": "./img/chimney3.jpg",
@@ -94,13 +95,24 @@
             "title": "Ice-cream filled and sweet-stuffed Chimneys ",
             "headline": "",
             "text":
-                "Recently, ice-cream filled and sweet-stuffed Chimneys started to bewitch Budapest. We bring this new innovation of the Chimneys to you!"
+                "Recently, ice-cream filled and sweet-stuffed Chimneys are the latest fad in Budapest. We bring this new innovation of the Chimneys to you!"
         }
     ],
     "events": [
         {
+            "image": "./img/university.PNG",
+            "title": "University District Farmers Market",
+            "embedUrl":
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.9667261035434!2d-122.31525748491643!3d47.66564279189151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a0c5007c639%3A0xf8473879e81afea3!2sUniversity+District+Farmers+Market!5e0!3m2!1sen!2sus!4v1522635342558",
+            "description": "5031 University Way NE, Seattle, WA 98105",
+            "location": "https://goo.gl/maps/M6F2MK9M4Gm",
+            "date": "Saturdays, 9 am -2 pm, Year Round"
+        },
+        {
             "image": "./img/issaquah.PNG",
             "title": "Issaquah Farmers Market",
+            "embedUrl":
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.9163998723743!2d-122.05155838492105!3d47.54995579988335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490658195c41833%3A0xe7802280f4abff25!2sIssaquah+Farmers+Market!5e0!3m2!1sen!2sus!4v1522636195199",
             "description": "1730 10th Ave NW, Issaquah, WA 98027",
             "location": "https://goo.gl/maps/M6F2MK9M4Gm",
             "date": "Saturdays from 9am-2pm during the summer"
@@ -108,6 +120,8 @@
         {
             "image": "./img/sammamish.PNG",
             "title": "Sammamish Farmers Market",
+            "embedUrl":
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.2911566699377!2d-122.03912618491894!3d47.60102799635691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549071ef7ba9bfe7%3A0x4e5f99ef4b27d248!2sSammamish+Farmers+Market!5e0!3m2!1sen!2sus!4v1522636242751",
             "description": "801 228th Ave SE, Sammamish, WA 98074",
             "location": "https://goo.gl/maps/hASTJawgKU92",
             "date": "Wednesdays from 4 pm to 8 pm during the summer"
