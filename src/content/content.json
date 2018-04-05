@@ -3,6 +3,12 @@
         "label": "label",
         "logo": "logo"
     },
+    "gallery":{
+        "images":["./img/main.jpg","./img/chimney1.jpg","./img/ingedients_lemon_cropped.jpg"],
+        "coverHeadline":"Budapastry",
+        "coverText": "Chimney Cake",
+        "animDuration": 4000
+    },
     "home": [
         {
             "image": "./img/main.jpg",

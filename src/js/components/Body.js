@@ -3,12 +3,14 @@ import ReactDOM from "react-dom";
 
 import {Row} from "reactstrap";
 import BodyItem from "./BodyItem.js";
+import Gallery from "./Gallery.js";
 
 class Body extends Component {
     constructor(props) {
         super(props);
         // console.log("Body props", props);
         this.content = props.Content.home;
+        this.galleryContent = props.Content.gallery
     }
 
     generateContent(content) {
@@ -25,6 +27,7 @@ class Body extends Component {
         // console.log("Body-render");
         return (
             <div className="bodyWrapper container-fluid">
+                <Gallery content = {this.galleryContent} />
                 {this.generateContent(this.content)}
             </div>
         );
