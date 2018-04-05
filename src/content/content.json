@@ -4,10 +4,10 @@
         "logo": "logo"
     },
     "gallery":{
-        "images":["./img/main.jpg","./img/chimney1.jpg","./img/ingedients_lemon_cropped.jpg"],
+        "images":["./img/coneeffect.jpg","./img/icecream1.jpg","./img/icecream3.jpg", "./img/chimney3.jpg"],
         "coverHeadline":"Budapastry",
         "coverText": "Chimney Cake",
-        "animDuration": 4000
+        "animDuration": 5000
     },
     "home": [
         {
